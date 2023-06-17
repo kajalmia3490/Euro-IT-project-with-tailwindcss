@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.it-logo img {
+    width: 250px;
+}
+
+.basis-logo img {
+    width: 150px;
+}
+
+/* Customize carousel styling */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .carousel-item {
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .carousel {
+      justify-content: center;
+    }
+  
+    .carousel-item {
+      flex: none;
+      width: auto;
+      margin-right: 1rem;
+    }
+  }
+  
+  
